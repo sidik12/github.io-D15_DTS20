@@ -1,0 +1,131 @@
+@media screen and (max-width:1000px) {
+    .navbar-brand {
+        float: left;
+
+    }
+
+    .navbar {
+        display: none;
+    }
+
+
+    .portfolio-title {
+        font-size: 20px;
+    }
+
+    .profile {
+        background-color: #212121;
+        color: white;
+        padding-bottom: 80px;
+        padding: 20px 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile img {
+        flex: auto;
+        width: 100%;
+    }
+
+    .portfolio-link a {
+        text-align: center;
+        color: black;
+        font-size: 12px;
+        opacity: 0.7;
+        /* border: 2px solid black; */
+        padding: 5px 25px;
+        margin: 3px 3px;
+        border-radius: 5px;
+    }
+
+    .portfolio-image {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .portfolio-image img {
+        flex: auto;
+        width: 50%;
+    }
+
+    .contact {
+        padding-bottom: 100px;
+        height: 400px;
+    }
+
+    .form-control {
+        margin: 0;
+    }
+
+    .layout-footers {
+        height: 600px;
+    }
+}
+
+
+@media screen and (max-width:878px) {
+
+    .navbar-brand {
+        float: left;
+
+    }
+
+    .navbar {
+        display: none;
+    }
+
+
+    .portfolio-title {
+        font-size: 20px;
+    }
+
+    .portfolio-link a {
+        text-align: center;
+        color: black;
+        font-size: 12px;
+        opacity: 0.7;
+        /* border: 2px solid black; */
+        padding: 5px 25px;
+        margin: 3px 3px;
+        border-radius: 5px;
+    }
+
+    .portfolio-image {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .portfolio-image img {
+        flex: auto;
+        width: 100%;
+    }
+
+    .contact {
+        padding-bottom: 100px;
+        height: 400px;
+    }
+
+    .form-control {
+        margin: 0;
+    }
+
+    .layout-footers {
+        height: 620px;
+        padding-left: 20px;
+    }
+
+    .footer-about {
+        padding-right: 0;
+        height: 620px;
+    }    
+
+}
